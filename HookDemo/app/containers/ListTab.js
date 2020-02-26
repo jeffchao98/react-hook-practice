@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import { Button } from '../components'
 
 const styles = StyleSheet.create({
     container: {
@@ -8,15 +7,10 @@ const styles = StyleSheet.create({
     }
 })
 
-const onClick = () => {
-    console.warn('test')
-}
-
-export default HomeScreen = () => {
+export default ListTab = () => {
     return (
         <View style={ styles.container }>
-            <Button onPress={()=>{ onClick() }}/>
-            <Text>Hello</Text>
+            <Text>TabList</Text>
         </View>
     )
 }
